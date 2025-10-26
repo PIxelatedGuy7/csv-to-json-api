@@ -5,5 +5,5 @@ A Node.js API to upload CSV files, convert them to JSON, and store them in a Pos
 - Upload CSV files via `/upload` endpoint
 - Stream-based CSV parsing for large files
 - Batch insert into database with configurable batch size
-- Tracks upload summary and age-group distribution
+- Tracks upload summary via `/status` endpoint and age-group distribution on console
 
